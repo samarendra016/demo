@@ -9,10 +9,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class LogInTest {
-	WebDriver d=new FirefoxDriver();
+	WebDriver d=new FirefoxDriver();//Lunch Firefox Browser
 	@Test
 	public void checkLogInTest() throws InterruptedException {
-		d.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);//Implicit wait
 		d.get("https://www.gmail.com/");
 		//WebElement signBtn=d.findElement(By.xpath("//a[text()='Sign In']"));
 		//signBtn.click();
