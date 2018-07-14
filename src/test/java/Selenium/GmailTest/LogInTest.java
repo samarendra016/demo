@@ -22,7 +22,7 @@ public class LogInTest {
 		d.findElement(By.xpath("//input[@name='password']")).sendKeys("Sama@1234");
 		d.findElement(By.xpath("//span[text()='Next']")).click();
 		d.findElement(By.xpath("//a[@href='https://mail.google.com/mail/u/0/#category/social']")).click();
-		
+		d.close();
 	}
 
 }
