@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class LogInTest {
-	WebDriver d=new FirefoxDriver();//Lunch Firefox Browser
+	WebDriver d=new FirefoxDriver();//Lunch Firefox WebBrowser
 	@Test
 	public void checkLogInTest() throws InterruptedException {
 		d.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);//Implicit wait
